@@ -1,10 +1,10 @@
-# seed-current-time
+# seed-minimal-test
 
 A minimal SEED that installs a single "current-time" agent skill. Built to be the fastest possible SEED to install — a smoke-test fixture for the SEED lifecycle.
 
 ## Purpose
 
-`seed-current-time` is the smallest useful SEED: installing it drops one agent skill onto your machine that, when invoked, reports the host's current date and time. It exists as a fast, low-footprint fixture for automated testing of the SEED install/verify lifecycle — it requires no hardware, accounts, or external software, touches only a single file under your skills directory, runs in well under a second, and cleanly verifies. Use it to smoke-test a `seed-install` implementation end to end without cloning a heavy real-world project.
+`seed-minimal-test` is the smallest useful SEED: installing it drops one agent skill onto your machine that, when invoked, reports the host's current date and time. It exists as a fast, low-footprint fixture for automated testing of the SEED install/verify lifecycle — it requires no hardware, accounts, or external software, touches only a single file under your skills directory, runs in well under a second, and cleanly verifies. Use it to smoke-test a `seed-install` implementation end to end without cloning a heavy real-world project.
 
 ## Install
 
