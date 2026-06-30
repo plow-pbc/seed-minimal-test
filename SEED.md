@@ -8,6 +8,8 @@ The key words MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD, SHOULD NOT, RE
 
 ## Dependencies
 
+This is a SEED per the [openseed convention](https://github.com/plow-pbc/openseed). An agent installing it without the `seed-install` skill MUST first read this `SEED.md` end-to-end and follow its installer contract.
+
 No hardware, accounts, or external software are REQUIRED beyond a POSIX shell with `mkdir` and `cp`, plus an agent host that loads skills from `~/.claude/skills/`.
 
 Install the `current-time` skill by copying its `SKILL.md` from this repo into the Claude Code user skills directory. The block runs from `$REPO_ROOT`.
